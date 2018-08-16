@@ -1,0 +1,24 @@
+{
+  "name": "black-block",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yuuki-kojima/black-block.git",
+  "author": "Yuuki Kojima <yuuki.xx54@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-serve --config webpack.config.js --open"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "connect-history-api-fallback": "^1.5.0",
+    "html-webpack-plugin": "^3.2.0",
+    "koa-connect": "^2.0.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.16.5",
+    "webpack-serve": "^2.0.2"
+  }
+}
